@@ -3,7 +3,7 @@ const spotifySearchAPI = 'https://api.spotify.com/v1/search';
 const spotifyUserProfileAPI = 'https://api.spotify.com/v1/me';
 const spotifyPlaylistAPI = 'https://api.spotify.com/v1/users/${userId}/playlists';
 const spotifyPlaylistTracksAPI = 'https://api.spotify.com/v1/users/${userId}/playlists/${playlistId}/tracks';
-const spotifyRedirectUrl = "https://localhost:3000/callback/";
+const spotifyRedirectUrl = "https://jamming-codecademy-project.herokuapp.com/callback/";
 
 let accessToken;
 let expiresIn;
